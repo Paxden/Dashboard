@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 415px) {
+    
+.bal2{
+    display: none;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-top: 30px;
+    align-items: center;
+}
+.eye-open{
+    display: none;
+}
+.bell-box{
+    width: 50px;
+    height: 50px;
+}
+.card-text{
+    font-size: 14px;
+}
+.bx{
+    padding: 20px;
+    box-shadow: 1px 4px 14px rgba(0,0,0,0.1);
+    height: 170px;
+    border-radius: 5%;
+}
+.card1{
+    background: #978cf896;
+}
+.card2{
+    background: #b2de5275;
+}
+.card3{
+    background: #d9eada6e;
+}
+.card4{
+    background: #f3c51f73;
+}
+.ben-ava{
+    /* align-items: center; */
+    display: flex;
+    align-items: center;
+}
+.ben-icon{
+    background: #978cf896;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.foot-icon{
+    justify-content: space-between;
+}
+.ben-ico{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.foo-icon .ben-ico{
+    margin-right: 15px;
+}
+.foot-icon i, p{
+    font-size: 14px;
+} 
+}
